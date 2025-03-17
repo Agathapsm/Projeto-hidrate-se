@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de hidratação</title>
+    <link rel="shortcut icon" href="imagens/hidratar.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section>
+        <h1>Calculadora de consumo diário de água</h1>
+    
+        <div id="div_principal">
+           
+            
+            <div id="div_secundaria">
+                
+                <div id="idade_value" class="idade">
+                    <p class="info">Idade: </p>
+                    <input type="number" class="input" id="idade">
+                    <span class="span">anos</span>
+                </div>
+                
+                <div id="resultado" class="res">
+                    <p id="res_value"></p>
+                </div>   
+                
+                
+                <div id="peso_value" class="peso">
+                    <p class="info">Peso: </p>
+                    <input type="number" class="input" id="peso">
+                    <span class="span">kg</span>
+                </div>
+            </div>
+                
+
+            <div>
+                <input type="button" value="CALCULAR" id="calcular_button"  onclick="CALCULAR()">  
+            </div>
+           
+        </div>
+        
+    </section>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
